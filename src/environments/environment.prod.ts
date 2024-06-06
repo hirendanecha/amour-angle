@@ -1,6 +1,6 @@
 const url = 'https://api.amourangles.tube';
 const webUrl = 'https://amourangles.tube/';
-const tubeUrl = 'https://tube.amourangles.tube/'
+const tubeUrl = 'https://video.amourangles.tube/'
 
 // const url = 'http://localhost:8080';
 // const webUrl = 'http://localhost:4200/';
