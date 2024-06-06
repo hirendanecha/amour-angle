@@ -47,7 +47,7 @@ export class CarouselComponent implements OnInit {
   ) {
     this.profileId = +localStorage.getItem('profileId');
     const data = {
-      title: 'AmourAngles.tube Carousel',
+      title: 'AmourAngels.tube Carousel',
       url: `${location.href}`,
       description: '',
     };

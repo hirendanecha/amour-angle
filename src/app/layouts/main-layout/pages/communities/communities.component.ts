@@ -37,7 +37,7 @@ export class CommunitiesComponent {
     }
     // this.getCommunities();
     const data = {
-      title: 'AmourAngles.tube Connection',
+      title: 'AmourAngels.tube Connection',
       url: `${window.location.href}`,
       description: '',
     };

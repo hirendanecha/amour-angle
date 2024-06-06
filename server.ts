@@ -84,14 +84,14 @@ export function app(): express.Express {
         }
         const params = req.params[0];
         var seo: any = {
-          title: 'AmourAngles.tube',
+          title: 'AmourAngels.tube',
           description:
             'Live Girls! Talk One-on-One Face-to-Face',
           image:
-            'https://www.amourangles.tube/assets/images/landingpage/profile.png',
-          site: 'https://www.amourangles.tube/',
-          url: 'https://www.amourangles.tube' + params,
-          keywords: 'AmourAngles.tube',
+            'https://www.amourangels.tube/assets/images/landingpage/profile.png',
+          site: 'https://www.amourangels.tube/',
+          url: 'https://www.amourangels.tube' + params,
+          keywords: 'AmourAngels.tube',
         };
         if (
           params.indexOf('shop-girls/') > -1 ||
@@ -132,7 +132,7 @@ export function app(): express.Express {
           console.log({ params }, { id }, { profile: JSON.stringify(profile) });
           const talent = {
             name: profile[0]?.userName,
-            description: 'AmourAngles.tube',
+            description: 'AmourAngels.tube',
             image: profile?.[0]?.profilePictures?.[0]?.imageUrl,
           };
           // description: profile[0]?.FirstName + ' ' + profile[0]?.LastName,
@@ -154,13 +154,13 @@ export function app(): express.Express {
           const pdhtml = document.createElement('div');
           pdhtml.innerHTML = post?.postdescription || post?.metadescription;
           const talent = {
-            name: post?.title || post?.albumname || 'AmourAngles.tube Post',
+            name: post?.title || post?.albumname || 'AmourAngels.tube Post',
             description: pdhtml?.textContent || 'Post content',
             image:
               post?.thumbfilename ||
               post?.metaimage ||
               post?.imageUrl ||
-              'https://www.amourangles.tube/assets/images/landingpage/Square-Logo.png',
+              'https://www.amourangels.tube/assets/images/landingpage/Square-Logo.png',
           };
           seo.title = talent.name;
           seo.description = strip_html_tags(talent.description);
@@ -175,7 +175,7 @@ export function app(): express.Express {
 
           console.log('group===>', group);
           const talent = {
-            name: `AmourAngles.tube Research ${group?.PageTitle}`,
+            name: `AmourAngels.tube Research ${group?.PageTitle}`,
             description: group?.PageDescription,
             image: group?.CoverPicName || group?.ProfilePicName,
           };

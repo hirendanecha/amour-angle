@@ -26,7 +26,7 @@ export class SupportTicketPageComponent implements OnInit {
     private toasterService: ToastService
   ) {
     const data = {
-      title: 'AmourAngles.tube-Support Ticket page',
+      title: 'AmourAngels.tube-Support Ticket page',
       url: `${location.href}`,
       description: '',
     };

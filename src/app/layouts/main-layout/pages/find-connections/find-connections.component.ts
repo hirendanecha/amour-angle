@@ -39,7 +39,7 @@ export class ConnectionsComponent implements OnInit {
     private toastService: ToastService
   ) {
     const data = {
-      title: 'AmourAngles.tube Shop',
+      title: 'AmourAngels.tube Shop',
       url: `${location.href}`,
       description: '',
     };

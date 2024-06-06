@@ -121,7 +121,7 @@ export class HealingPractitionerRegistrationComponent implements OnInit {
 
     this.profileId = Number(localStorage.getItem('profileId'));
     const data = {
-      title: 'AmourAngles.tube Registration',
+      title: 'AmourAngels.tube Registration',
       url: `${window.window.location.href}`,
       description: '',
     };

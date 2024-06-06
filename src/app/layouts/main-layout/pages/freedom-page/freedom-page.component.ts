@@ -29,7 +29,7 @@ export class FreedomPageComponent {
 
     this.getPages();
     const data = {
-      title: 'AmourAngles.tube Girl PR!',
+      title: 'AmourAngels.tube Girl PR!',
       url: `${location.href}`,
       description: '',
     };

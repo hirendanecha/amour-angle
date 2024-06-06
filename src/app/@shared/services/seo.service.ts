@@ -69,7 +69,7 @@ export class SeoService {
     }
 
     if (!tagValue.image) {
-      tagValue.image = 'https://amourangles.tube/assets/images/banner/cover.png';
+      tagValue.image = 'https://amourangels.tube/assets/images/banner/cover.png';
     }
 
     this.meta.updateTag({

@@ -24,7 +24,7 @@ export class NotificationsComponent {
     private socketService: SocketService
   ) {
     const data = {
-      title: 'AmourAngles.tube Notification',
+      title: 'AmourAngels.tube Notification',
       url: `${window.location.href}`,
       description: '',
     };

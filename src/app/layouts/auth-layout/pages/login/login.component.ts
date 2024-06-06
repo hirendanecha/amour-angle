@@ -67,7 +67,7 @@ export class LoginComponent implements OnInit, AfterViewInit {
       this.type = 'success';
     }
     const data = {
-      title: 'AmourAngles.tube login',
+      title: 'AmourAngels.tube login',
       url: `${environment.webUrl}login`,
       description: 'login page',
       image: `${environment.webUrl}assets/images/avtar/placeholder-user.png`,

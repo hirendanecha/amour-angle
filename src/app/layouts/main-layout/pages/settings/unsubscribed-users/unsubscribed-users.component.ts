@@ -19,7 +19,7 @@ export class UnsubscribedUsersComponent implements OnInit {
     @Inject(PLATFORM_ID) private platformId: Object
   ) { 
     const data = {
-      title: 'AmourAngles.tube Block User',
+      title: 'AmourAngels.tube Block User',
       url: `${window.location.href}`,
       description: '',
     };

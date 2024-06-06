@@ -19,7 +19,7 @@ export class SeeFirstUserComponent implements OnInit {
     @Inject(PLATFORM_ID) private platformId: Object
   ) {
     const data = {
-      title: 'AmourAngles.tube See First User',
+      title: 'AmourAngels.tube See First User',
       url: `${window.location.href}`,
       description: '',
     };

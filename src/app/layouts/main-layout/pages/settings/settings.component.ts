@@ -24,7 +24,7 @@ export class SettingsComponent {
     private seoService:SeoService
   ) {
     const data = {
-      title: 'AmourAngles.tube Settings',
+      title: 'AmourAngels.tube Settings',
       url: `${location.href}`,
       description: '',
     };

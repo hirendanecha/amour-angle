@@ -110,7 +110,7 @@ export class ProfileChatsListComponent
     this.profileId = +localStorage.getItem('profileId');
 
     const data = {
-      title: 'AmourAngles.tube-Chat',
+      title: 'AmourAngels.tube-Chat',
       url: `${location.href}`,
       description: '',
     };
