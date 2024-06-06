@@ -17,7 +17,7 @@ const api_url = environment.serverUrl;
 // The Express app is exported so that it can be used by serverless Functions.
 export function app(): express.Express {
   const server = express();
-  const distFolder = join(process.cwd(), 'dist/amour-angle/browser');
+  const distFolder = join(process.cwd(), 'dist/amourangels/browser');
   const indexHtml = existsSync(join(distFolder, 'index.original.html'))
     ? 'index.original.html'
     : 'index';
@@ -28,7 +28,7 @@ export function app(): express.Express {
   const template = fs
     .readFileSync(
       path.join(
-        join(process.cwd(), 'dist/amour-angle/browser'),
+        join(process.cwd(), 'dist/amourangels/browser'),
         'index.html'
       )
     )

@@ -1,5 +1,5 @@
 {
-  "name": "amour-angle",
+  "name": "amourangels",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,10 +7,10 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "dev:ssr": "ng run amour-angle:dev-serve-ssr",
-    "serve:ssr": "node dist/amour-angle/server/main.js",
-    "build:ssr": "ng build --configuration production && ng run amour-angle:server",
-    "prerender": "ng run amour-angle:prerender"
+    "dev:ssr": "ng run amourangels:dev-serve-ssr",
+    "serve:ssr": "node dist/amourangels/server/main.js",
+    "build:ssr": "ng build --configuration production && ng run amourangels:server",
+    "prerender": "ng run amourangels:prerender"
   },
   "private": true,
   "dependencies": {

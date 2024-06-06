@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "amour-angle": {
+    "amourangels": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -22,7 +22,7 @@
               "utf-8-validate",
               "socket.io-client"
             ],
-            "outputPath": "dist/amour-angle/browser",
+            "outputPath": "dist/amourangels/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -84,10 +84,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "amour-angle:build:production"
+              "browserTarget": "amourangels:build:production"
             },
             "development": {
-              "browserTarget": "amour-angle:build:development"
+              "browserTarget": "amourangels:build:development"
             }
           },
           "defaultConfiguration": ""
@@ -95,7 +95,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "amour-angle:build"
+            "browserTarget": "amourangels:build"
           }
         },
         "test": {
@@ -120,7 +120,7 @@
         "server": {
           "builder": "@angular-devkit/build-angular:server",
           "options": {
-            "outputPath": "dist/amour-angle/server",
+            "outputPath": "dist/amourangels/server",
             "main": "server.ts",
             "tsConfig": "tsconfig.server.json",
             "inlineStyleLanguage": "scss"
@@ -143,8 +143,8 @@
           "builder": "@nguniversal/builders:ssr-dev-server",
           "configurations": {
             "development": {
-              "browserTarget": "amour-angle:build:development",
-              "serverTarget": "amour-angle:server:development"
+              "browserTarget": "amourangels:build:development",
+              "serverTarget": "amourangels:server:development"
             }
           },
           "defaultConfiguration": "development"
@@ -153,12 +153,12 @@
           "builder": "@nguniversal/builders:ssr-dev-server",
           "configurations": {
             "development": {
-              "browserTarget": "amour-angle:build:development",
-              "serverTarget": "amour-angle:server:development"
+              "browserTarget": "amourangels:build:development",
+              "serverTarget": "amourangels:server:development"
             },
             "production": {
-              "browserTarget": "amour-angle:build:production",
-              "serverTarget": "amour-angle:server:production"
+              "browserTarget": "amourangels:build:production",
+              "serverTarget": "amourangels:server:production"
             }
           },
           "defaultConfiguration": "production"
@@ -172,12 +172,12 @@
           },
           "configurations": {
             "production": {
-              "browserTarget": "amour-angle:build:production",
-              "serverTarget": "amour-angle:server:production"
+              "browserTarget": "amourangels:build:production",
+              "serverTarget": "amourangels:server:production"
             },
             "development": {
-              "browserTarget": "amour-angle:build:development",
-              "serverTarget": "amour-angle:server:development"
+              "browserTarget": "amourangels:build:development",
+              "serverTarget": "amourangels:server:development"
             }
           },
           "defaultConfiguration": ""
